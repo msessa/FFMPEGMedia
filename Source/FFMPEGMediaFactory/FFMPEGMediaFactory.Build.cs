@@ -9,6 +9,7 @@ namespace UnrealBuildTool.Rules
 			PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
 
 			OptimizeCode = CodeOptimization.Never;
+            bEnableShadowVariableWarnings = false;
 
 			DynamicallyLoadedModuleNames.AddRange(
 				new string[] {

@@ -103,6 +103,7 @@ public class FFMPEGMedia : ModuleRules
 		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
 		OptimizeCode = CodeOptimization.Never;
 		bEnableExceptions = true;
+        bEnableShadowVariableWarnings = false;
 
 		DynamicallyLoadedModuleNames.AddRange(
 			new string[] {
